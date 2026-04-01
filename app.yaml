@@ -10,7 +10,7 @@ env:
     value: "/sql/1.0/warehouses/1d3599b5c1f9c48b"
 
   - name: DATABRICKS_TOKEN
-    value: ""
+    value: "dapi4d7f460800419881c06874367256b045"
 
   - name: PYTHONUNBUFFERED
     value: "1"
