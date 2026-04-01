@@ -1643,7 +1643,7 @@ def login_page():
             html.Div(
                 [
                     html.Div(
-                        [logo(56), html.Span("SakthiNex OS", style={"fontSize": "24px", "fontWeight": "700", "color": "#273142", "marginLeft": "12px"})],
+                        [logo(56), html.Span("MahemaNex OS", style={"fontSize": "24px", "fontWeight": "700", "color": "#273142", "marginLeft": "12px"})],
                         style={"display": "flex", "alignItems": "center", "marginBottom": "60px"}
                     ),
                     html.Div("Fueling the Future", style={"fontSize": "42px", "fontWeight": "700", "color": "#0F172A", "lineHeight": "1.1"}),
@@ -1659,8 +1659,8 @@ def login_page():
                             html.Div("Enterprise Portal", style={"fontSize": "28px", "fontWeight": "700", "color": "#273142", "textAlign": "center"}),
                             html.Div("Select your console", style={"fontSize": "14px", "color": MUTED, "textAlign": "center", "marginTop": "6px", "marginBottom": "28px"}),
                             login_card("Supreme CEO", build_href("/group", "supreme_ceo", "light")),
-                            login_card("Sakthi Sugars", build_href("/sugars", "sugars_ceo", "light")),
-                            login_card("Sakthi Finance", build_href("/finance", "finance_ceo", "light")),
+                            login_card("Mahema Sugars", build_href("/sugars", "sugars_ceo", "light")),
+                            login_card("Mahema Finance", build_href("/finance", "finance_ceo", "light")),
                             login_card("ABT Logistics", build_href("/abt", "abt_ceo", "light")),
                         ],
                         style={"width": "100%", "maxWidth": "420px", "padding": "30px", "backgroundColor": "#FAFAFB", "border": f"1px solid {BORDER}", "borderRadius": "18px", "boxShadow": "0 6px 18px rgba(0,0,0,0.05)"}
@@ -1680,8 +1680,8 @@ def sidebar(user, active_view, theme_mode="light"):
     if "Enterprise" in persona["permissions"]:
         buttons = [
             nav_link("Group Overview", build_href("/group", user, theme_mode), active_view == "supreme_ceo", theme_mode),
-            nav_link("Sakthi Sugars", build_href("/sugars", user, theme_mode), active_view == "sugars_ceo", theme_mode),
-            nav_link("Sakthi Finance", build_href("/finance", user, theme_mode), active_view == "finance_ceo", theme_mode),
+            nav_link("Mahema Sugars", build_href("/sugars", user, theme_mode), active_view == "sugars_ceo", theme_mode),
+            nav_link("Mahema Finance", build_href("/finance", user, theme_mode), active_view == "finance_ceo", theme_mode),
             nav_link("ABT Logistics", build_href("/abt", user, theme_mode), active_view == "abt_ceo", theme_mode),
         ]
     else:
@@ -1690,7 +1690,7 @@ def sidebar(user, active_view, theme_mode="light"):
     return html.Div(
         [
             html.Div(
-                [logo(36), html.Span("SakthiNex", style={"fontSize": "20px", "fontWeight": "700", "color": colors["text"], "marginLeft": "8px"})],
+                [logo(36), html.Span("MahemaNex", style={"fontSize": "20px", "fontWeight": "700", "color": colors["text"], "marginLeft": "8px"})],
                 style={"display": "flex", "alignItems": "center", "marginBottom": "22px"}
             ),
             html.Div("CONSOLES", style={"fontSize": "10px", "fontWeight": "700", "letterSpacing": "0.08em", "textTransform": "uppercase", "color": colors["muted"], "marginBottom": "10px"}),
