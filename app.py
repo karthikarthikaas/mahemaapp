@@ -28,7 +28,7 @@ app = Dash(
     suppress_callback_exceptions=True,
 )
 server = app.server
-app.title = "SakthiNex OS"
+app.title = "MahemaNex OS"
 
 
 # =========================================================
@@ -136,17 +136,17 @@ PERSONAS = {
         "subtitle": "Cross Sector Performance Overview",
     },
     "sugars_ceo": {
-        "name": "Sakthi Sugars",
+        "name": "Mahema Sugars",
         "role": "Sector CEO",
         "permissions": ["Sugars"],
-        "title": "Sakthi Sugars Performance Console",
+        "title": "Mahema Sugars Performance Console",
         "subtitle": "Production, Recovery and Profitability Monitoring",
     },
     "finance_ceo": {
-        "name": "Sakthi Finance",
+        "name": "Mahema Finance",
         "role": "Sector CEO",
         "permissions": ["Finance"],
-        "title": "Sakthi Finance Performance Console",
+        "title": "Mahema Finance Performance Console",
         "subtitle": "Portfolio, Asset Quality and Collections Monitoring",
     },
     "abt_ceo": {
